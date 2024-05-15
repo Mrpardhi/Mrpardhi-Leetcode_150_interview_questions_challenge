@@ -1,0 +1,21 @@
+class Solution {
+
+public:
+
+bool can.Jump(vector<int>& nums) {
+
+int n nums.size(); int rechebal = 0;
+
+for(int i=0; i<n; i++) {
+
+if(rechebal <i){
+
+return false;
+
+rechebal = max(rechebal, 1+nums[i]):
+
+}
+
+return true;
+
+};
